@@ -1,5 +1,5 @@
 import { Hono } from "hono";
-import { handle } from "hono/vercel"; // Adapter ini adalah kunci untuk Verce
+import { handle } from "hono/vercel"; // Adapter ini adalah kunci untuk Vercel
 import { bodyLimit } from "hono/body-limit";
 import { fetchRequestHandler } from "@trpc/server/adapters/fetch";
 import { appRouter } from "./router";
