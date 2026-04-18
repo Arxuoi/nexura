@@ -15,13 +15,11 @@
       "@db/*": ["./db/*"]
     },
     "jsx": "react-jsx",
-    "types": ["vite/client", "node"]
+    "types": ["node"]
   },
-  "include": [
-    "src/**/*",
-    "api/**/*",
-    "contracts/**/*",
-    "db/**/*",
-    "vite.config.ts"
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.server.json" }
   ]
 }
