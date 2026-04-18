@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "types": ["node"]
+  },
+  "include": [
+    "api/**/*"
+  ],
+  "exclude": [
+    "src",
+    "server",
+    "db",
+    "contracts",
+    "node_modules"
+  ]
+}
