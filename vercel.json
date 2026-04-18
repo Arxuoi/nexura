@@ -1,13 +1,14 @@
 {
+  "functions": {
+    "api/[...all].ts": {
+      "runtime": "nodejs18.x",
+      "tsconfig": "tsconfig.vercel.json"
+    }
+  },
   "routes": [
     {
       "src": "/api/(.*)",
       "dest": "/api/[...all].ts"
     }
-  ],
-  "functions": {
-    "api/[...all].ts": {
-      "runtime": "nodejs18.x"
-    }
-  }
+  ]
 }
