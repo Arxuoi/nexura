@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "types": ["node"]
+  },
+  "include": [
+    "api/**/*",
+    "server/**/*",
+    "contracts/**/*",
+    "db/**/*"
+  ]
+}
